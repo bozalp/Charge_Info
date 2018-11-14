@@ -37,8 +37,7 @@ namespace laptop_sarj_yuzdesi
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(0, 0);
             this.Size = new Size(60, 20);
-
-            //int pil = Convert.ToInt32((label1.Text));
+            
             if (batarya.Percent < 25) 
             {
                 this.BackColor = Color.FromArgb(200, 0, 0);
